@@ -1,5 +1,5 @@
 {
-  "name": "hyper-monochrome",
+  "name": "hyper-mono",
   "version": "0.0.1",
   "description": "A monochrome theme for Hyper",
   "main": "index.js",
@@ -8,10 +8,13 @@
     "theme",
     "monochrome"
   ],
-  "author": "Matthias Kern @matthiaskern",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "Reaper @barelyhuman",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/matthiaskern/hyper-monochrome.git"
+    "url": "git://github.com/barelyhuman/hyper-mono.git"
   }
 }
