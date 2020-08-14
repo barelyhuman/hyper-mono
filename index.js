@@ -1,5 +1,5 @@
 const backgroundColor = 'rgba(22, 22, 27, 1)';
-const foregroundColor = 'rgba(115,115,115, 1)';
+const foregroundColor = '#rgb(153,153,153,1)';
 const WHITE = '#ffffff';
 const LIGHT_GRAY = 'rgba(242,242,242, 1)';
 const DARK_GRAY = 'rgba(104,104,104, 1)';
