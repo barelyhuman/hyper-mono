@@ -1,8 +1,8 @@
-const backgroundColor = 'rgba(22, 22, 27, 0.8)';
-const foregroundColor = 'rgba(115,115,115, 0.6)';
+const backgroundColor = 'rgba(22, 22, 27, 1)';
+const foregroundColor = 'rgba(115,115,115, 1)';
 const WHITE = '#ffffff';
-const LIGHT_GRAY = 'rgba(242,242,242, 0.7)';
-const DARK_GRAY = 'rgba(104,104,104, 0.6)';
+const LIGHT_GRAY = 'rgba(242,242,242, 1)';
+const DARK_GRAY = 'rgba(104,104,104, 1)';
 const cursorColor = LIGHT_GRAY;
 const borderColor = backgroundColor;
 
@@ -23,7 +23,7 @@ const colors = {
   lightMagenta: LIGHT_GRAY,
   lightCyan: LIGHT_GRAY,
   colorCubes: WHITE,
-  grayscale: foregroundColor
+  grayscale: foregroundColor,
 };
 
 exports.decorateConfig = (config) => {
@@ -48,7 +48,6 @@ exports.decorateConfig = (config) => {
       .tab_textActive {
         border-bottom: 2px solid ${WHITE};
       }
-    `
+    `,
   });
 };
-
